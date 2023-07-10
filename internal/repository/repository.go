@@ -2,7 +2,8 @@ package repository
 
 import (
 	"database/sql"
-	"go-movies/internal/models"
+
+	"github.com/imgustacabral/go-movies/internal/models"
 )
 
 type DatabaseRepo interface {

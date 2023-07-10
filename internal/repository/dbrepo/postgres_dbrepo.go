@@ -3,8 +3,9 @@ package dbrepo
 import (
 	"context"
 	"database/sql"
-	"go-movies/internal/models"
 	"time"
+
+	"github.com/imgustacabral/go-movies/internal/models"
 )
 
 type PostgresDBRepo struct {

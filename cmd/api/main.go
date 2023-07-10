@@ -3,10 +3,11 @@ package main
 import (
 	"flag"
 	"fmt"
-	"go-movies/internal/repository"
-	"go-movies/internal/repository/dbrepo"
 	"log"
 	"net/http"
+
+	"github.com/imgustacabral/go-movies/internal/repository"
+	"github.com/imgustacabral/go-movies/internal/repository/dbrepo"
 )
 
 const port = 8080
